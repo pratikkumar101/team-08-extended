@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+  --first: #1d9eba;
+  --second: #3BACB6;
+  --third: #82DBD8;
+  --forth: #B3E8E5;
+  --fifth: #18978F;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* font-size: 1.2rem; */
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  /* font-size: 1.2rem; */
+  /* background-color: pink; */
+  /* background-color: aliceblue;
+  
+   */
+}
+h1 {
+  font-family:'Courier Prime', monospace !important;
+}

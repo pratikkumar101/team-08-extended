@@ -1,0 +1,234 @@
+.poster {
+    background-image: url(../../public/images/image-removebg.png);
+    width: 100%;
+    /* height: 80vh; */
+    padding: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    /* border-bottom: 10px solid var(--first); */
+}
+
+.poster .poster-content {
+    width: 40%;
+    /* margin: auto; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+
+.poster .poster-content .poster-heading {
+    width: 100%;
+    background-color: #1d9dba94;
+    color: white;
+    text-align: center;
+    padding: 20px 10px 20px 10px;
+    border-radius: 20px;
+
+}
+  
+.poster .poster-content .poster-quote {
+    margin: auto;
+    margin-top: 20px;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.749);
+    padding: 20px;
+    font-size: 1.2rem;
+}
+
+.poster .poster-content .join-btn {
+    width: 100%;
+    /* margin: auto; */
+    text-align: center;
+    margin-top: 40px;
+}
+
+.poster .poster-content .join-btn a {
+    /* width: 100%; */
+    background-color: #1d9dba94;
+    border: 4px solid var(--first);
+    border-radius: 20px;
+    padding: 20px 80px;
+    font-size: 1.2rem;
+}
+
+.poster .poster-content .join-btn a:hover {
+    background-color: var(--first);
+}
+
+.button {
+    font-weight: bold;
+    border-radius: 4px;
+    /* background-color: #f4511e; */
+    /* background-color: #18978ec9; */
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+.button:hover {
+    background-color: var(--first);
+}
+
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+.poster-quote q {
+
+}
+
+.how-to {
+    background-image: url(../../public/images/pet-feet.jpg);
+    width: 100%;
+    background-size: contain;
+    /* height: 100vh; */
+    padding-top: 100px;
+    padding-bottom: 100px;
+    /* box-shadow: 10px 5px 5px var(--second); */
+}
+
+.how-to-heading-content {
+    border: 2px solid rgb(196, 194, 194);
+    width: 60%;
+    background-color: white;
+    margin: auto;
+    padding: 40px 0;
+    border-radius: 40px;
+    box-shadow: 15px 15px 15px grey;
+    /* text-align: justify; */
+}
+
+.how-to-heading {
+    background-color: #1d9dba94;
+    color: white;
+    
+
+}
+
+.how-to-heading h1{
+    text-align: center;
+    padding: 20px 0;
+}
+
+.how-to-content {
+    padding: 40px;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    line-height: 1.5;
+    text-align: justify;
+    
+}
+
+.how-to-content-quote {
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+    font-style: italic;
+    font-size: 1.1rem;
+}
+
+.steps {
+    width: 100%;
+    /* padding-top: 40px;
+    padding-bottom: 80px; */
+    /* background-image: url(../../public/images/pet-feet.jpg); */
+    background-size: contain;
+    background-color: white;
+    
+    /* padding-top: 80px; */
+    padding-bottom: 100px;
+}
+
+.steps-heading {
+    width: 100%;
+    margin: auto;
+    background-color: var(--first);
+    color: white;
+    padding: 20px 40px;
+    /* border-radius: 20px; */
+
+}
+
+.steps-heading h1 {
+    text-align: center;
+}
+
+
+.step{
+    width: 100%;
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    row-gap: 60px;
+    /* column-gap: 80px; */
+    
+}
+
+@media (max-width: 1100px ) {
+    .poster .poster-content {
+        width: 80%;
+    }
+    /* .poster .poster-content .join-btn a {
+        background-color: #1d9dba94;
+    } */
+}
+
+@media (max-width: 970px) {
+    .how-to-heading-content {
+        width: 80%;
+    }
+}
+
+@media (max-width: 600px) {
+    .poster {
+        width: 100%;
+        padding: 20px;
+    }
+    .poster .poster-content {
+        width: 90%;
+    }
+    .how-to-content-quote {
+        width: 80%;
+    }
+}
+
+@media (max-width: 550px) {
+    .how-to-content-quote {
+        width: 90%;
+        text-align: justify;
+    }
+}

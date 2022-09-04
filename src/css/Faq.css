@@ -1,0 +1,12 @@
+.faq{
+    margin-left: 190px;
+    margin-right: 190px;
+    padding: 80px 0 120px 0;
+    
+}
+
+
+.faqHeading{
+    text-align: center;
+    /* background-color: var(--third); */
+}

@@ -1,0 +1,49 @@
+.singleShop {
+    width: 100%;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0;
+}
+
+.singleShop-card {
+    width: 80%;
+    height: 500px;
+    border: 1px solid;
+    display: flex;
+    border-radius: 40px;
+    box-shadow: 15px 15px 15px gray;
+    overflow: hidden;
+}
+
+.singleShop-card-img {
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.singleShop-card-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.singleShop-card-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+.singleShop-card-btn button {
+    padding: 20px 40px;
+    border: 2px solid var(--first);
+    border-radius: 20px;
+    background-color: #1d9dba94;
+}
+
+.singleShop-card-btn button:hover {
+    background-color: var(--first);
+}
+

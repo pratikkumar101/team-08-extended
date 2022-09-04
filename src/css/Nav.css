@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: white !important;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    /* height: 10vh; */
+    /* border: 1px solid; */
+    align-items: center;
+    background-color: var(--first);
+    box-shadow: 0px 5px 10px 0px #888888;
+}
+
+.nav .nav_logo {
+    display: flex;
+    /* align-items: center; */
+}
+
+/* .nav_items {
+    row-gap: 20px;
+    column-gap: 20px;
+    background: rgb(211, 204, 204);
+} */
+
+.nav .nav_items {
+    display: flex;
+    /* align-items: center; */
+}
+
+.nav_element {
+    margin: 20px;
+}
+
+.nav .nav_items .nav_item {
+    /* margin: 20px; */
+    font-size: 1.2rem;
+    padding: 10px 2px;
+    /* border-bottom: 2px solid red; */
+}
+
+.active {
+    border-bottom: 2px solid white;
+}
+
+.nav .nav_side {
+    display: flex;
+    align-items: center;
+    
+}
+
+.nav .nav_side .nav_cart {
+    padding: 10px;
+    margin-right: 20px;
+
+}
+
+.nav .nav_side .nav_cart a {
+    font-size: 1.5rem;
+}
+
+.nav .nav_side .nav_donate {
+    border: 3px solid white;
+    border-radius: 20px;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.nav_hamburger {
+    display: none;
+}
+
+.menu-link {
+    display:none;
+}
+
+.menu-link .nav-menu {
+    display: none;
+}
+
+
+
+@media (max-width: 998px) {
+    .nav_items {
+        display: none;
+    }
+    .nav_items .nav_element {
+        display: none;
+    }
+    .nav_donate {
+        display: none;
+    }
+    .nav_hamburger {
+        display: block;
+        margin-top: 25px;
+        font-size: 2.5rem;
+    }
+    .nav {
+        justify-content: space-between;
+    }
+    .nav_logo {
+        flex: 1;
+        justify-content: center;
+    }
+    .mobile-menu-link, .nav-menu {
+        display: block;
+    }
+    .mobile-menu-link {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(137, 137, 137);
+        position: absolute;
+        top: 10vh;
+        left: 0px;
+        /* height: 50vh; */
+        width: 100vw;
+        /* justify-content: space-between; */
+        text-align: center;
+        /* justify-content: center; */
+        font-size: 1.32rem;
+        z-index: 99;
+        box-shadow: 0px 15px 10px 0px #888888;
+    }
+    .mobile-menu-link a{
+        /* flex: 1; */
+        padding: 20px;
+        justify-content: center;
+    }
+    .mobile-menu-link a:hover {
+        /* border: 1px solid black; */
+        background-color: rgb(221, 221, 221);
+    }
+    .active {
+        border: none;
+    }
+}

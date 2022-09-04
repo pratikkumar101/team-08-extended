@@ -1,0 +1,74 @@
+.cartcontainer {
+    width: 100%;
+    /* height: 100vh; */
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f1f1f1;
+
+}
+
+.cartcad {
+
+    margin: 40px auto;
+    display: flex;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+    width: 100%;
+    /* border: 1px solid; */
+    background-color: white;
+}
+
+.cartcad .cartcad-img {
+    width: 30%;
+}
+
+.cartcad .cartcad-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.cartcad-info {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 50px;
+}
+.cartcad-price p {
+    text-align: left !important;
+}
+
+.cartcad-amount p {
+    text-align: left !important;
+}
+
+.cartcad-btn1 {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.cartcad-btn1 button {
+    width: 75%;
+    background-color: var(--second);
+    padding: 10px 35px;
+}
+
+.cartcad-btn2 {
+    display: flex;
+
+}
+
+.cartcad-btn2 button {
+    width: 15%;
+    background-color: var(--second);
+    padding: 10px 20px;
+}
+
+.cartcad-btn2 p {
+    width: 10%;
+    padding: 10px 20px;
+}
+
+.total {
+    text-transform: capitalize;
+}

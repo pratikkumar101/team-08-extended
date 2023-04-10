@@ -33,6 +33,10 @@ https://drive.google.com/file/d/14_CfAsYlN4-_Nm1ScHyoGJ-NsjtNxDTv/view?usp=drive
 
 https://react-app-3b399.web.app/
 
+## Updated link - Live
+
+https://pet-buddy.vercel.app/
+
 ## Team Description:-
 <ul>
 <li>Team Name: Extended</li>

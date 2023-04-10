@@ -29,40 +29,24 @@ const About = () => {
       
       <div class="col-xl-4 col-sm-6 mb-5">
         <div class="bg-white rounded shadow-sm py-5 px-4"><img src="https://bootstrapious.com/i/snippets/sn-about/avatar-2.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" />
-          <h5 class="mb-0">Pratik Kumar</h5><span class="small text-uppercase text-muted">React Developer</span>
+          <h5 class="mb-0">Pratik Kumar</h5><span class="small text-uppercase text-muted"> Developer</span>
           
         </div>
       </div>
      
       <div class="col-xl-4 col-sm-6 mb-5">
         <div class="bg-white rounded shadow-sm py-5 px-4"><img src="https://bootstrapious.com/i/snippets/sn-about/avatar-3.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" />
-          <h5 class="mb-0">Madhav Gupta</h5><span class="small text-uppercase text-muted">React Developer</span>
+          <h5 class="mb-0">Madhav Gupta</h5><span class="small text-uppercase text-muted"> Developer</span>
           
         </div>
       </div>
       
-      <div class="col-xl-4 col-sm-6 mb-5">
+        <div class="col-xl-4 col-sm-6 mb-5">
         <div class="bg-white rounded shadow-sm py-5 px-4"><img src="https://bootstrapious.com/i/snippets/sn-about/avatar-3.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" />
-          <h5 class="mb-0">Sarabjot</h5><span class="small text-uppercase text-muted">Backend</span>
+          <h5 class="mb-0">Manibhushan Kumar</h5><span class="small text-uppercase text-muted"> Developer</span>
           
         </div>
-        
       </div>
-      <div class="col-xl-4 col-sm-6 mb-5">
-        <div class="bg-white rounded shadow-sm py-5 px-4"><img src="https://bootstrapious.com/i/snippets/sn-about/avatar-1.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" />
-          <h5 class="mb-0">Shubham Bhardwaj</h5><span class="small text-uppercase text-muted">Backend Developer</span>
-          
-        </div>
-        
-      </div>
-      <div class="col-xl-4 col-sm-6 mb-5">
-        <div class="bg-white rounded shadow-sm py-5 px-4"><img src="https://bootstrapious.com/i/snippets/sn-about/avatar-4.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" />
-          <h5 class="mb-0">Surbhi Raj</h5><span class="small text-uppercase text-muted"> Documentation </span>
-          
-        </div>
-        
-      </div>
-
       
       {/* <div class="col-xl-3 col-sm-6 mb-5">
         <div class="bg-white rounded shadow-sm py-5 px-4"><img src="https://bootstrapious.com/i/snippets/sn-about/avatar-1.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm" />
